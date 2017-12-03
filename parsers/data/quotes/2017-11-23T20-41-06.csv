@@ -1,0 +1,343 @@
+yandex_metrick,title,text,description,keyword,h1,googl_anal,h2,count_analytics
+yes,Московский Политех - Главная страница,"(['найти', 'Университет', 'Образование', 'Наука', 'Внеучебная жизнь', 'Открытый отборочный чемпионат по стандартам WorldSkills завершился в Московском Политехе', 'Две серебряных медали получили разработки Московского Политеха на IENA-2017 в Германии', 'Футболисты Московского Политеха – чемпионы мира по футзалу', 'Талантливым школьникам рассказали, как поступить в университет со своим проектом', 'IX открытый Турнир поэтов прошел в Московском Политехе', 'Free Dance Family – чемпионы мира по хип-хопу', 'КОНТАКТЫ ', 'МОСКОВСКИЙ ПОЛИТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ ', 'ст. м. «Электрозаводская», ул. Большая Семеновская, 38', 'Приемная комиссия: +7 495 223-05-22', '\r\n\r\n', '\xa0', '\xa0', 'Ученый совет', 'Кампус', '\xa0', '\xa0', 'Центр развития профессионального образования'],)","(['Московский политехнический университет является крупнейшей  образовательной организацией, готовящей квалифицированных специалистов для производства'],)","(['Московский политех, Московский политехнический университет, МАМИ, Университет машиностроения, обучение, вуз, высшее образование, МГОУ Черномырдина, МГВМИ, МИХМ, МГУИЭ, МГИУ, МГУП Ивана Федорова'],)","(['Новости', 'Поступление', 'Федеральные программы', 'Студенческие проекты и команды', 'Кампус', 'Контакты'],)",yes,"([],)","<script language=""javascript"" type=""text/javascript"" src=""js/chbox.js""></script>,<script type=""text/javascript"" src=""js/jquery-1.7.1.min.js""></script>,<script type=""text/javascript"" src=""js/jquery-ui.min.js""></script>,<script src=""js/libs/jquery.fancybox.pack.js""></script>,<script src=""js/libs/jquery.mousewheel-3.0.6.pack.js""></script>,<script src=""js/modernizr.custom.js""></script>,<script src=""js/jquery.scrollTo-min.js""></script>,<script src=""js/classie.js""></script>,<script type=""text/javascript"" src=""highslide/highslide.js""></script>,<script type=""text/javascript"">
+			hs.graphicsDir = 'highslide/graphics/';
+			hs.wrapperClassName = 'wide-border';
+			
+</script>,<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = ""//connect.facebook.net/ru_RU/all.js#xfbml=1"";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>,<script type=""text/javascript"" src=""http://userapi.com/js/api/openapi.js?48""></script>,<script type=""text/javascript"">
+  VK.init({apiId: 5620393, onlyWidgets: true});
+</script>,<script src=""js/rem.min.js""></script>,<script type=""text/javascript"">
+(function($){
+
+	$(function(){
+		var e = $("".scrollTop"");
+		var	speed = 500;
+
+		e.click(function(){
+			$(""html:not(:animated)"" +( !$.browser.opera ? "",body:not(:animated)"" : """")).animate({ scrollTop: 0}, 500 );
+			return false;
+		});
+		function show_scrollTop(){
+			( $(window).scrollTop()>300 ) ? e.fadeIn(600) : e.hide();
+		}
+		$(window).scroll( function(){show_scrollTop()} ); show_scrollTop();
+	});
+
+})(jQuery)
+</script>,<script src=""js/nav.jquery.min.js""></script>,<script>
+    $('.nav').nav();
+</script>,<script type=""text/javascript"">
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+			'img_new/top_bn/01.jpg',
+			'img_new/top_bn/04.jpg',
+			'img_new/top_bn/06.jpg',
+			'img_new/top_bn/07.jpg',
+			'img_new/top_bn/10.jpg'
+			)
+	</script>,<script type=""text/javascript"">
+		//$(""#fittext2"").fitText(1.0, { minFontSize: '20px', maxFontSize: '90px' });
+		//$(""#fittext3"").fitText(1.0, { minFontSize: '5px', maxFontSize: '18px' });
+	</script>,<script>
+
+var imgHead = [
+			'img_new/top_bn/01.jpg',
+			'img_new/top_bn/07.jpg',
+			'img_new/top_bn/04.jpg',
+			'img_new/top_bn/06.jpg',
+			'img_new/top_bn/10.jpg'
+			
+		], i=1;
+	function csaHead(){
+
+		if(i > (imgHead.length-1)){
+						
+			$('#bbbblock').animate({'opacity':'0.5'},100,function(){
+				i=1;
+				$('#bbbblock').css({'background-image':'url('+imgHead[0]+')'});
+			});
+			$('#bbbblock').animate({'opacity':'1'},300);
+		}else{
+			$('#bbbblock').animate({'opacity':'0.5'},100,function(){
+				$('#bbbblock').css({'background-image':'url('+imgHead[i]+')'});
+				i++;
+			});
+			$('#bbbblock').animate({'opacity':'1'},300);
+		}
+		
+	}
+	var intervalCsaHead = setInterval(csaHead,10000);
+
+</script>,<script>
+
+
+function resizeTop()
+{
+var wh = window.innerHeight;
+
+
+var tnh=0;//document.getElementById('top_nav').clientHeight;
+
+var nh=wh-60-tnh;
+
+document.getElementById('bbbblock').style.height=nh+'px';
+
+var mh=document.getElementById('mpu_logo_text').clientHeight;
+
+var mw=document.getElementById('mpu_logo_text').clientWidth;
+var nw=document.getElementById('bbbblock').clientWidth;
+
+nh=document.getElementById('bbbblock').clientHeight;
+
+var th=(nh-mh)/2;
+document.getElementById('mpu_logo_text').style.bottom=th+'px';
+
+//var tw=(nw-mw)/2;
+//document.getElementById('mpu_logo_text').style.left=tw+'px';
+
+
+hhs=2;
+}
+
+resizeTop();
+
+</script>,<script type=""text/javascript"">
+
+
+function scrollToTag(tadid)
+{
+
+$('html, body').animate({ scrollTop: $('#'+tadid).offset().top }, 500); 
+	
+	
+}
+
+$( search_init );
+
+function search_init() {
+  $('#www_search').bind( 'click', srch_click );
+}
+
+
+function srch_click() {
+$('#search_form').slideToggle('fast');
+//scrollToTag('top_nav');
+
+//$('html, body').scrollTo($(""#main_nav"").offset().top-document.getElementById('top_nav').clientHeight,700);
+
+//Query.scrollTo($(""#main_nav"").offset().top-document.getElementById('top_nav').clientHeight,700);
+$('html, body').animate({ scrollTop: $('#main_nav').offset().top-document.getElementById('top_nav').clientHeight }, 500);
+
+document.getElementById('search_txt').focus();
+return false;
+
+}
+
+
+
+function toggleMainMenu_short()
+{
+$('#mm1').slideUp('fast');
+$('#mm2').slideToggle('fast');
+$('#search_form').slideUp('fast'); 
+//scrollToTag('main_nav');
+$('html, body').animate({ scrollTop: $('#main_nav').offset().top-document.getElementById('top_nav').clientHeight }, 500);
+//jQuery.scrollTo($(""#main_nav"").offset().top-document.getElementById('top_nav').clientHeight,700);
+return false;
+
+}
+
+
+function toggleMainMenu()
+{
+$('#mm2').slideUp('fast');
+$('#mm1').slideToggle('fast');
+$('#search_form').slideUp('fast');
+
+
+$('html, body').animate({ scrollTop: $('#main_nav').offset().top-document.getElementById('top_nav').clientHeight }, 500); 
+
+//jQuery.scrollTo($(""#main_nav"").offset().top-document.getElementById('top_nav').clientHeight,700);
+return false;
+}
+
+</script>,<script type=""text/javascript"" src=""highslide/highslide.js""></script>,<script type=""text/javascript"">
+			hs.graphicsDir = 'highslide/graphics/';
+			hs.wrapperClassName = 'wide-border';
+</script>,<script type=""text/javascript"">
+    $(document).on('ready', function() {
+      $("".events"").slick({
+        dots: false,
+        infinite: false,
+		adaptiveHeight: false,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    }]
+      });
+    });
+  </script>,<script type=""text/javascript"">
+    $(document).on('ready', function() {
+      $("".regular"").slick({
+        dots: false,
+		arrows: true,
+        infinite: false,
+		adaptiveHeight: false,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+		arrows: true,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+		arrows: true,
+		dots: false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+		dots: false
+      }
+    }]
+      });
+    });
+  </script>,<script type=""text/javascript"">
+    $(document).on('ready', function() {
+      $("".custom"").slick({
+        dots: false,
+		arrows: true,
+        infinite: false,
+		adaptiveHeight: false,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+		arrows: true,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+		arrows: true,
+		dots: false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+		arrows: true,
+		dots: false
+      }
+    }]
+      });
+    });
+  </script>,<script type=""text/javascript"" charset=""utf-8"" async src=""https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=2-k84SBHL-HsVgoPTp3wq6TyLHwWdnxw&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=false""></script>,<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92770873-1', 'auto');
+  ga('send', 'pageview');
+
+</script>,<script type=""text/javascript"">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter24882404 = new Ya.Metrika({
+                    id:24882404,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName(""script"")[0],
+            s = d.createElement(""script""),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = ""text/javascript"";
+        s.async = true;
+        s.src = ""https://mc.yandex.ru/metrika/watch.js"";
+
+        if (w.opera == ""[object Opera]"") {
+            d.addEventListener(""DOMContentLoaded"", f, false);
+        } else { f(); }
+    })(document, window, ""yandex_metrika_callbacks"");
+</script>,<script language=""JavaScript"" type=""text/javascript""><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script>,<script language=""JavaScript1.1"" type=""text/javascript""><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script>,<script language=""JavaScript1.2"" type=""text/javascript""><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script>,<script language=""JavaScript1.3"" type=""text/javascript""><!--
+js=13//--></script>,<script language=""JavaScript"" type=""text/javascript""><!--
+d.write('<a href=""http://top.mail.ru/jump?from=737115""'+
+' target=_top><img src=""http://top.list.ru/counter'+
+'?id=737115;t=52;js='+js+a+';rand='+Math.random()+
+'"" alt=""Рейтинг@Mail.ru""'+' border=0 height=31 width=88/><\/a>')
+if(11<js)d.write('<'+'!-- ')//--></script>,<script language=""JavaScript"" type=""text/javascript""><!--
+if(11<js)d.write('--'+'>')//--></script>,<script src=""js/slick.js""></script>"
